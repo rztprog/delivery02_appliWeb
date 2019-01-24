@@ -1,6 +1,6 @@
 # Delivery02 | webApp
 
-# GLOUGLOU : Bouteille electronique alcool
+# GLOUGLOU : Bouteille d'Alcool Electronique
 
 ## FEATURES
 * Vibration + Son (si la bouteille est perdu)
