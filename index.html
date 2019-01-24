@@ -6,8 +6,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<link rel="shortcut icon" type="image/ico" href="./img/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap/bootstrap.css" />
-		<!-- <link rel="stylesheet" type="text/css" href="./css/style.css" /> -->
-		<title>myTitle</title>
+		<link rel="stylesheet" type="text/css" href="./css/style.css" />
+		<title>GLOUGLOU - La bouteille connectée</title>
 	</head>
 	<body>
 		<header>
@@ -16,7 +16,6 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item active">
@@ -45,8 +44,80 @@
 			</nav>
 		</header>
 		<main>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="https://via.placeholder.com/200" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="https://via.placeholder.com/200" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="https://via.placeholder.com/200" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Précédent</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Suivant</span>
+			</a>
+		</div>
+		<div class="container-fluid">
+			<blockquote class="blockquote">
+				<p>Nous croyons en la transformation des habitudes de tous les jours à travers le jeu ! :)</p>			
+			</blockquote>
+		</div>
+		<div class="container-fluid">
+			<blockquote class="blockquote bg-secondary">
+				<h1>La bouteille d'alcool connecté</h1>
+				<h2>Comment ça marche ?</h2>
+			</blockquote>
+		</div>
 		</main>
-		<footer>
+		<footer class="container-fluid">
+			<div class="appbadges">
+				<a href="/social-connect">
+					<li class="app-store facebook">
+						<span class="fa fa-facebook fa-2x app-store-icon"></span>
+						<h1>Facebook</h1>
+					</li>
+					<li class="app-store twitter">
+						<span class="fa fa-twitter fa-2x app-store-icon"></span>
+						<h1>Twitter</h1>
+					</li>
+					<li class="app-store instagram">
+						<span class="fa fa-instagram fa-2x app-store-icon"></span>
+						<h1>Instagram</h1>
+					</li>
+				</a>
+			</div>
+			<div>
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Faq</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Vie Privée</a>
+					</li>
+				</ul>		
+			</div>
+			<div class="cpr justify-content-center">
+				<p>Aaron-Schwartz (Simplon) - 2018/2019 - MIT LICENSE</p>			
+			</div>
 		</footer>
 	</body>
 </html>
