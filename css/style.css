@@ -16,18 +16,7 @@
 .appbadges .tumblr:hover{color:#35465c;}
 
 /* style.css */
-.blockquote {
-	height: 50vh;
-	text-align: center;
-	font-size: 2rem;
-}
-
 .cpr {
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	padding-left: 0;
-	margin-bottom: 0;
 	font-size: 0.8rem;
 }
+
